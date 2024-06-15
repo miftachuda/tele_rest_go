@@ -75,8 +75,8 @@ func main() {
 	})
 
 	// Start the HTTP server on port 9999
-	log.Println("Listening on port 9999")
-	if err := http.ListenAndServe(":9999", nil); err != nil {
+	log.Println("Listening on port 7777")
+	if err := http.ListenAndServe(":7777", nil); err != nil {
 		log.Fatalf("Failed to start server: %v", err)
 	}
 }
